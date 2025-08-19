@@ -1,13 +1,13 @@
 n=int(input("enter number"))
-d=len(str(n))
+power=len(str(n))
 sum=0
 temp=n
 while temp>0:
     digit=temp%10
-    sum+=digit**d
-    
+    sum+=digit**power
     temp=digit
 if n==sum:
-    print("armstrong")
+    print(n,"is an armstrong number")
 else:
-    print("not")
+
+    print(n,"is not an armstrong number")
