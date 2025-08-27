@@ -27,7 +27,7 @@ print(str1.find('Car'))   #7
 print(str1.find('raC'))   #-1
 
 #replace
-print(str1.replace('Cars','Automobile'))
+print(str1.replace('Cars','Automobile'))   #I Love Automobile and Bikes
 
 
 #split()
@@ -49,6 +49,7 @@ print(str1.endswith('es'))   #True
 
 #count()
 print(str1.count('e'))    #2
+
 
 
 
