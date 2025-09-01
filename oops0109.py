@@ -52,3 +52,9 @@ c2.exp(21,9)
 c2.fdiv(23,9)
 c2.describe()
 
+#what is self?
+# self is a conventional name for the first parameter of instance  in a class. 
+# It refers to the current instance of the class, allowing access to that specific object's attributes and methods.
+# Whenever a method is called via an object, Python automatically passes the object itself as the first argument to the method, which is typically named "self"
+
+
